@@ -1,0 +1,15 @@
+[submodule "doks"]
+	path = doks
+	url = https://github.com/h-enk/doks.git
+[submodule "themes/doks"]
+	path = themes/doks
+	url = https://github.com/h-enk/doks.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/HugoTheme-VibrantShadows"]
+	path = themes/HugoTheme-VibrantShadows
+	url = https://github.com/Softorage/HugoTheme-VibrantShadows.git
+[submodule "themes/minimal-bootstrap-hugo-theme"]
+	path = themes/minimal-bootstrap-hugo-theme
+	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git

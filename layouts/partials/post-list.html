@@ -1,0 +1,18 @@
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+<div class="card">
+  <p>
+    <h5 class="mt-3"></h5><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></p></h5>
+    <small><a href="https://revnue.com/" target="_blank" class="oi oi-external-link ml-auto p-2"></a></small>
+    {{ $customDateFormat := "January 2, 2006" }}
+    {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
+    <br>
+    <small class="text-secondary">{{ .PublishDate.Format $customDateFormat }}</small>
+    {{ partial "tags" . }}
+    {{ if eq .Site.Params.showPostSummary true }}
+    <br>
+    {{ .Summary }}
+    {{ end }}
+  </p>
+</div>
+{{ end }}

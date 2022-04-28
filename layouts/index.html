@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{ $homepage := "Home" }}
+{{ with .Site.Menus.nav }}
+  {{ range first 1 . }}
+    {{ $homepage = .Name }}
+  {{ end }}
+{{ end }}
+<section class="text-center my-5">
+  <h1 class="jumbotron-heading">Discover softwares, their alternatives, reviews, news, questions and comparisons.</h1>
+  <p class="lead text-muted mx-auto w-50">Find handcurated and community moderated leading alternatives,reviews and comparisions for your favourite app or software on Hackerspad. Ask questions or simply browse news.</p>
+      <a id="soft-cta" href="https://hackerspad.net/submit-software/">Post a software for $49</a>
+      <p class="small">~ 150K Pageviews Per Month
+</p></section>
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range first 20 $pages.ByPublishDate }}
+<div class="row">
+  <div class="col-sm-12">
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="media">
+      <div class="media-body">
+        <h5 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h5>
+        {{ .Content }}
+      </div>
+    </div>
+    {{ partial "tags" . }}
+  </div>
+</div>
+</div>
+</div>
+{{ end }}
+
+{{- end -}}

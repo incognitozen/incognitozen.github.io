@@ -1,0 +1,83 @@
+baseURL = 'https://hackerspad.net'
+languageCode = 'en-us'
+title = 'Discover softwares, their alternatives, reviews, news, questions and comparisons.'
+enableGitInfo = true
+[related]
+  includeNewer = false
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  platform = "platform"
+  classification = "classification"
+
+[permalinks]
+  post = "/:title/"
+  software = "/software/:title/"
+
+[params]
+  description = "Some description"
+  contentBackgroundColor = "#f8f9fa"
+  contentTextColor = "#212529"
+  contentLinkColor = "#007bff"
+  contentLinkHoverColor = "#0056b3"
+  navbarBackgroundColor = "#f8f9fe"
+  navbarLinkColor = "#000"
+  navbarLinkHoverColor = "#007bff"
+  wrapperMaxWidth = "800px"
+  customDateFormat = "Jan 2, 2006"
+  customCodeStyle = true
+  customBlockquoteStyle = true
+  showPostSummary = false
+  googleAnalytics = "UA-123456789-1"
+  cookieConsent = false
+  includeBootstrapJs = false
+  faviconSafariPinnedTabColor = "#5bbad5"
+  faviconMsApplicationTileColor = "#da532c"
+  faviconThemeColor = "#ffffff"
+
+[menu]
+  [[menu.nav]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+  [[menu.nav]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 6
+    startLevel = 2

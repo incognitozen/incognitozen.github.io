@@ -1,0 +1,44 @@
+{{- define "main" -}}
+<div class="row">
+  <div class="col-sm-2"></div>  
+  <div class="col-sm-10">
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="media">
+          <!-- <img class="align-self-center mr-3" src="/{{ .Params.image }}" alt="{{ .Title }}"> -->
+          <div class="media-body">
+            <h1 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h1>
+            <small class="text-secondary">
+              Classification: {{ .Params.classification }}
+              </small>
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Related -->   
+  <h3>{{ .Title }} Alternatives</h3>
+  {{ $related := .Site.RegularPages.Related . | first 50 }}
+  {{ with $related }}
+    {{ range . }}
+
+      <div class="card mb-3">
+      <div class="card-body">
+        <div class="media">
+          <!-- <img class="align-self-center mr-3" src="/{{ .Params.image }}" alt="{{ .Title }}"> -->
+        <div class="media-body">
+          <h5 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dulls><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dulls></h5>
+          <small class="text-secondary">
+            Classification: {{ .Params.classification }}
+          </small>
+          {{ .Content }}
+        </div>
+        </div>
+      </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+  {{ end }}
+    <!-- /Related -->  
+{{- end -}}
