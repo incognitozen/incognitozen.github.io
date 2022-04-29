@@ -1,0 +1,10 @@
+---
+title: Shakespeer
+draft: false 
+website: https://github.com
+classification: ['']
+platform: ['Web']
+keywords: ['jucy', 'strongdc++']
+image: 2020/04/Shakespeer.png
+---
+ShakesPeer is a peer to peer (P2P) file sharing program.

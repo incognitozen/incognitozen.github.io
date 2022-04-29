@@ -1,0 +1,10 @@
+---
+title: Hero Voicer
+draft: false 
+website: https://hero-voicer.en.softonic.com
+classification: ['']
+platform: ['Web']
+keywords: ['fake', 'morphvox', 'voice']
+image: 2020/04/Hero-Voicer.png
+---
+Hero Voicer that is also called as Hero Voice Changer is an advanced level of voice changing application that will make you able to change your voice while calling over the Skype or any other voice calling programs or apps.

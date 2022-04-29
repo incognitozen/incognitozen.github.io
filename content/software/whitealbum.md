@@ -1,0 +1,10 @@
+---
+title: WhiteAlbum
+draft: false 
+website: https://whitealbumapp.com
+classification: ['']
+platform: ['Web']
+keywords: ['authenpic']
+image: logo.png
+---
+A disposable camera on your phone, printed & shipped to you

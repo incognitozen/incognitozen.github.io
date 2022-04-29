@@ -1,0 +1,10 @@
+---
+title: GoSurveyBot
+draft: false 
+website: https://shyftnext.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: 2020/04/GoSurveyBot.png
+---
+Shyft is the world leader in global mobility tech. Exploit our cutting edge tech to give your top talent the ultimate relocation experience.

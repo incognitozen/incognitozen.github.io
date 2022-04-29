@@ -1,0 +1,10 @@
+---
+title: paper3.io
+draft: false 
+website: http://paper3.io/
+classification: ['']
+platform: ['Web']
+keywords: ['mope.io', 'paper.io']
+image: logo.png
+---
+Paper.io 3 is a great multiplayer paper.io unblocked game to capture territory, it's a pleasure to spend time in it. You have to fight against real gamers all around the world.

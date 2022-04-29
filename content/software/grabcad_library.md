@@ -1,0 +1,10 @@
+---
+title: GrabCAD Library
+draft: false 
+website: https://grabcad.com
+classification: ['Design Softwares']
+platform: ['Web']
+keywords: ['3dmodelspace']
+image: 2020/04/GrabCAD-Library.png
+---
+The GrabCAD Library offers millions of free CAD designs, CAD files, and 3D models. Join the GrabCAD Community today to gain access and download!

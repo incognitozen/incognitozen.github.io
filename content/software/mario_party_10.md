@@ -1,0 +1,10 @@
+---
+title: Mario Party 10
+draft: false 
+website: https://mariowiki.com
+classification: ['']
+platform: ['Web']
+keywords: ['bash', 'chaos', 'cards', 'crash', 'mario', 'rush', 'switch', 'tour', 'island']
+image: logo.png
+---
+Mario Party 10 is another major installment in the series of Mario Party that was released on March 12, 2015, on Nintendo Wii U platform.

@@ -1,0 +1,10 @@
+---
+title: MOLDIV
+draft: false 
+website: http://www.jellybus.com/moldiv
+classification: ['Photo &amp; Video Softwares']
+platform: ['Web']
+keywords: ['afterlight', 'picsay']
+image: logo.png
+---
+MOLDIV by JellyBus is a powerful photo editing app that offers everything you could wish for in photography.

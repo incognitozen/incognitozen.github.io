@@ -1,0 +1,10 @@
+---
+title: SymMover
+draft: false 
+website: https://download.cnet.com/SymMover/3000-2248_4-75677418.html
+classification: ['']
+platform: ['Web']
+keywords: ['pickmeapp', 'steam_library_manager', 'steam_mover']
+image: logo.png
+---
+SSDs, or solid-state drives, are much faster than the fastest disk drive, but their price-to-capacity ratio means that most users who boot their systems from an

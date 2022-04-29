@@ -1,0 +1,10 @@
+---
+title: WIRR 0.01
+draft: false 
+website: http://ideegeniali.altervista.org/animax/download.html
+classification: ['']
+platform: ['Web']
+keywords: ['lirc', 'winlirc']
+image: logo.png
+---
+Windows Infra-Red Receiver is a small application to help you control several functions of Windows...

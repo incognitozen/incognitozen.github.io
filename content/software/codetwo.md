@@ -1,0 +1,10 @@
+---
+title: CodeTwo
+draft: false 
+website: https://codetwo.com
+classification: ['']
+platform: ['Web']
+keywords: ['sharegate', 'zimbra']
+image: logo.png
+---
+The world of solutions for Exchange Server, Office 365 and Outlook. Check out our Windows-certified applications for Microsoft messaging platforms.

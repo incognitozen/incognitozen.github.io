@@ -1,0 +1,10 @@
+---
+title: JDA Floor Planning
+draft: false 
+website: https://blueyonder.com/solutions/detail/floor-planning
+classification: ['']
+platform: ['Web']
+keywords: ['42', 'aislelabs_connect', 'cosmetri', 'sps_commerce_analytics', 'venueops']
+image: 2020/04/JDA-Floor-Planning.png
+---
+Optimize your aisle management capabilities — and position your company as a valued partner to retail customer.

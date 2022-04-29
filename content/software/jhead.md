@@ -1,0 +1,11 @@
+---
+title: jhead
+draft: false 
+website: https://sentex.ca
+classification: ['']
+platform: ['Web']
+keywords: ['photome']
+image: logo.png
+---
+jhead is a Exif Jpeg header manipulation tool.
+Things jhead can extract from an Exif jpeg file

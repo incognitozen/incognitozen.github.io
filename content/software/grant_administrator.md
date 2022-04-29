@@ -1,0 +1,10 @@
+---
+title: Grant Administrator
+draft: false 
+website: http://www.dyna-quest.com/GA/gadescription.htm
+classification: ['']
+platform: ['Web']
+keywords: ['amplifund', 'clear_impact_scorecard', 'common_grant_application', 'communityforce', 'flexi-grant', 'fluidreview', 'foundation_grant_manager', 'grant_maximizer', 'granthub', 'grantmaker_by_fluxx', 'icaris', 'moderas_fasttrak', 'open_sky_grant_management', 'poweroffice_for_grantmakers', 'rms360', 'research_grant_central', 'toolkit_for_grant_makers', 'eawards', 'ecivis']
+image: logo.png
+---
+Grant Administrator is a grant management & fund accounting relational database application for tracking & reporting on programs & accounts.

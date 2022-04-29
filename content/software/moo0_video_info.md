@@ -1,0 +1,10 @@
+---
+title: Moo0 Video Info
+draft: false 
+website: https://moo0.com
+classification: ['']
+platform: ['Web']
+keywords: ['avicodec']
+image: 2020/04/Moo0-Video-Info.png
+---
+Moo0 Video Info is a very easy tool which can dispaly each video / audio file's information.

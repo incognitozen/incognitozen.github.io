@@ -1,0 +1,10 @@
+---
+title: Datastax Enterprise
+draft: false 
+website: https://datastax.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: 2020/04/Datastax-Enterprise.png
+---
+DataStax Enterprise is the always-on, active everywhere, distributed hybrid cloud database built on Apache Cassandra™.

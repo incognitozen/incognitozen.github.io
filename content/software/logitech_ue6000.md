@@ -1,0 +1,10 @@
+---
+title: Logitech UE6000
+draft: false 
+website: https://amazon.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: logo.png
+---
+Although discontinued, this joint effort between the well-regarded custom in-ear monitor and earphone manufacturer Ultimate Ears and Logitech should be highly considered.

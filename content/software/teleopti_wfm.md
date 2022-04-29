@@ -1,0 +1,10 @@
+---
+title: Teleopti WFM
+draft: false 
+website: https://teleopti.com
+classification: ['']
+platform: ['Web']
+keywords: ['genesys', 'verint', 'incontact']
+image: 2020/04/Teleopti-WFM.png
+---
+Humanize the workplace with intelligent automation from Teleopti. 100% committed to helping you optimize and engage your most important resource – your staff.

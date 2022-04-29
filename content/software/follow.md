@@ -1,0 +1,10 @@
+---
+title: Follow
+draft: false 
+website: https://followpos.com
+classification: ['']
+platform: ['Web']
+keywords: ['compassmax']
+image: 2020/04/Follow.png
+---
+Follow That Page is a change detection and notification service that sends you an email when your favourite web pages have changed. We monitor the web for you. See our demo video to learn more.

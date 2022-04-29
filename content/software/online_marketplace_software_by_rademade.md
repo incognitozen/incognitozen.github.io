@@ -1,0 +1,10 @@
+---
+title: Online Marketplace Software by Rademade
+draft: false 
+website: https://oms.rademade.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: logo.png
+---
+We have created different marketplaces, analysed many stakeholders’ needs and developed the software — an MVP marketplace package solution which called Online marketplace Software. OMS works for the range of niches

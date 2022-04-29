@@ -1,0 +1,10 @@
+---
+title: Eyeline Video Surveillance
+draft: false 
+website: https://nchsoftware.com
+classification: ['']
+platform: ['Web']
+keywords: ['xibo', 'ystio']
+image: logo.png
+---
+This powerful, yet simple, system provides priceless peace of mind for your home or your business. Monitor and record up to 100+ cameras and set up alerts.

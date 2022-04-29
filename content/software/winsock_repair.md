@@ -1,0 +1,10 @@
+---
+title: Winsock Repair
+draft: false 
+website: https://rizonesoft.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: 2020/04/Winsock-Repair.png
+---
+All Winsock Repair features was built into Complete Internet Repair and this is the reason, I essentially discontinued Winsock Repair.

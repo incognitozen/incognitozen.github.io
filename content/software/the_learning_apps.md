@@ -1,0 +1,10 @@
+---
+title: The Learning Apps
+draft: false 
+website: https://thelearningapps.com
+classification: ['']
+platform: ['Android', 'Browser', 'Firefox', 'Google Chrome', 'Internet Explorer', 'Web', 'Windows', 'iOS', 'iPhone']
+keywords: ['edukittyabc', 'pbskids']
+image: 2020/04/The-Learning-Apps.png
+---
+A hub of educational apps for kids on iPad, iPhone and other iOS devices. These apps are ideal for teaching toddlers, preschoolers, and kids in kindergarten

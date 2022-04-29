@@ -1,0 +1,10 @@
+---
+title: Lelylan
+draft: false 
+website: 
+classification: ['']
+platform: ['Web']
+keywords: ['arrayent', 'blackberry_iot_platform', 'c3_iot', 'carriots', 'covisint', 'cumulocity', 'evrythng', 'gaonic', 'google_cloud_iot', 'grovestreams', 'hologram_iot', 'losant', 'status_device_cloud', 'thingworx', 'xively', 'mnubo', 'thethings.io']
+image: 2020/04/Lelylan.png
+---
+Leylan offers lightweight microservices architecture for developers to build the Internet of Things.

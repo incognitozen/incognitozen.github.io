@@ -1,0 +1,10 @@
+---
+title: XDR Dental Imaging Software
+draft: false 
+website: https://xdrradiology.com
+classification: ['']
+platform: ['Web']
+keywords: ['3shape', 'dolphin', 'hero', 'invivo5', 'vistasoft']
+image: logo.png
+---
+Experience the diagnostic power of XDR's Dental Imaging Software. Clinically engineered for superior image capture, max compatibility & ease. Peer rated for excellence, see the difference for yourself.

@@ -1,0 +1,10 @@
+---
+title: Patternchain for G Suite
+draft: false 
+website: https://gsuite.google.com
+classification: ['']
+platform: ['Web']
+keywords: ['adstage']
+image: 2020/04/Patternchain-for-G-Suite.png
+---
+Browse critical information on hundreds of thousands of startups to identify your next customer, competitor, or investment.

@@ -1,0 +1,10 @@
+---
+title: Dactory
+draft: false 
+website: https://factory.jcrew.com
+classification: ['']
+platform: ['Web']
+keywords: ['conductor', 'micro', 'zuul']
+image: logo.png
+---
+Get classic J.Crew style from J.Crew Factory. Shop discount men's clothing, women's clothing, and kids clothing. Find great deals on sweaters, dresses, suits, shoes, accessories and jackets.

@@ -1,0 +1,10 @@
+---
+title: Neat Download Manager for Mac
+draft: false 
+website: https://neatdownloadmanager.com
+classification: ['']
+platform: ['Web']
+keywords: ['leech']
+image: logo.png
+---
+Very Lightweight and handy DM for Mac(and Windows) with perfect browser integration and easy video downloading features.Really worths a check.

@@ -1,0 +1,10 @@
+---
+title: Pivot3 vSTAC OS
+draft: false 
+website: 
+classification: ['']
+platform: ['Web']
+keywords: ['datacore', 'flex', 'netapp', 'san']
+image: 2020/04/Pivot3-vSTAC-OS.png
+---
+Pivot3 vSTAC OS natively combines storage, compute, networking and virtualization resources into a modular,x86 building block that can be rapidly deployed to run any enterprise application with industry-leading performance, scale, resilience and eff…

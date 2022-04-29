@@ -1,0 +1,10 @@
+---
+title: Hdparm for Windows
+draft: false 
+website: https://sites.google.com
+classification: ['']
+platform: ['Web']
+keywords: ['sdparm']
+image: 2020/04/Hdparm-for-Windows.png
+---
+Completely disable HDD APM or change APM values to prevent drive from parking its head, stop load/unload cycle count increasing and annoying drive ticking sounds.

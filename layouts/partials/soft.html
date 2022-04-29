@@ -1,0 +1,6 @@
+<ul>
+    {{ range first 20 .rows }}
+      <li>{{ .Title }}</li>
+      {{ .Alternatives}}
+    {{ end }}
+    </ul>

@@ -1,0 +1,10 @@
+---
+title: Editor.Pho.to
+draft: false 
+website: https://editor.pho.to/edit/
+classification: ['']
+platform: ['Web']
+keywords: ['befunky', 'fanstudio', 'fauxto', 'fotoflexer', 'fotostars', 'lunapic', 'photoscape_online', 'photobanda', 'picozu_image_editor', 'snipshot', 'ipiccy']
+image: logo.png
+---
+Need to have the capacity to edit your photos on the web, for nothing and without learning convoluted interfaces? At that point Editor.

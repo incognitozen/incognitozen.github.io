@@ -1,0 +1,10 @@
+---
+title: OffsiteStatus
+draft: false 
+website: http://www.offsitestatus.com
+classification: ['']
+platform: ['Web']
+keywords: ['hund', 'sorry', 'statuscast', 'statushub', 'staytus', 'statuspage']
+image: 2020/04/OffsiteStatus.png
+---
+OffsiteStatus is a hosted status page enabling businesses to communicate with their consumers in case​ of downtime.

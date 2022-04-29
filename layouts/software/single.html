@@ -5,40 +5,47 @@
     <div class="card mb-3">
       <div class="card-body">
         <div class="media">
-          <!-- <img class="align-self-center mr-3" src="/{{ .Params.image }}" alt="{{ .Title }}"> -->
+          {{ $imagePath := printf "images/%s" .Params.image }}
+          {{- $image := resources.Get $imagePath -}}  
+          {{ with $image }}
+          {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+          <img class="mr-3" src="{{ ($image.Fill "64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+          {{ end }}
+          {{ end }}
+          <div class="my-12">
           <div class="media-body">
             <h1 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h1>
-            <small class="text-secondary">
-              Classification: {{ .Params.classification }}
-              </small>
-            {{ .Content }}
+            {{ partial "platform" . }}
+            <div class="mt-2">{{ .Content }}</div>
           </div>
         </div>
       </div>
     </div>
-  <!-- Related -->   
-  <h3>{{ .Title }} Alternatives</h3>
-  {{ $related := .Site.RegularPages.Related . | first 50 }}
-  {{ with $related }}
+    </div>
+    <h3>{{ len .Params.keywords}} Alternatives To {{ .Title }}</h3>
+    {{ with .Params.keywords }}
     {{ range . }}
-
+      {{ with site.GetPage (path.Join "software" .) }}    
       <div class="card mb-3">
-      <div class="card-body">
-        <div class="media">
-          <!-- <img class="align-self-center mr-3" src="/{{ .Params.image }}" alt="{{ .Title }}"> -->
-        <div class="media-body">
-          <h5 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dulls><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dulls></h5>
-          <small class="text-secondary">
-            Classification: {{ .Params.classification }}
-          </small>
-          {{ .Content }}
-        </div>
+        <div class="card-body">
+          <div class="media">
+            {{ $imagePath := printf "images/%s" .Params.image }}
+            {{- $image := resources.Get $imagePath -}} 
+            {{ with $image }} 
+            {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+            <img class="mr-3" src="{{ ($image.Fill "64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+            {{ end }}
+            {{ end }}
+            <div class="media-body"> 
+              <h1 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h1>
+              {{ partial "platform" . }}
+              <div class="mt-2">{{ .Summary }}</div>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
+      {{ end }}
     {{ end }}
-  </div>
-</div>
   {{ end }}
-    <!-- /Related -->  
-{{- end -}}
+ </div>
+</div>{{ end }}

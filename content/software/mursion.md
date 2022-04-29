@@ -1,0 +1,10 @@
+---
+title: Mursion
+draft: false 
+website: https://mursion.com
+classification: ['']
+platform: ['Web']
+keywords: ['vr', 'viar360']
+image: 2020/04/Mursion.png
+---
+Mursion is paving the way for more effective training and learning solutions through immersive virtual reality environments with customized software.

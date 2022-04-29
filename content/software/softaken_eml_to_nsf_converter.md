@@ -1,0 +1,10 @@
+---
+title: Softaken EML to NSF Converter
+draft: false 
+website: https://softaken.com
+classification: ['']
+platform: ['Web', 'Windows']
+keywords: ['']
+image: 2020/04/Softaken-EML-to-NSF-Converter.png
+---
+Convert EML files to Lotus Notes effortlessly with Softaken EML to NSF Converter

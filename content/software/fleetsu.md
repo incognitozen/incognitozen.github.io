@@ -1,0 +1,10 @@
+---
+title: Fleetsu
+draft: false 
+website: https://fleetsu.com
+classification: ['Design Softwares']
+platform: ['Web']
+keywords: ['autosist', 'carmalink', 'clearpathgps', 'driveroo_fleet', 'eroad', 'everlance', 'fleetcommander', 'fleetwave', 'fleetio', 'gps_trackit', 'linxup_gps_tracking', 'loanertrack', 'odoo', 'onfleet', 'optimoroute', 'positrace', 'rta_fleet_management', 'rentworks', 'routesavvy', 'teletrac_navman_director', 'triplog', 'truckingoffice', 'whip_around', 'workwave_route_manager']
+image: 2020/04/Fleetsu.png
+---
+Fleetsu is an online enterprise telematics platform designed to optimise and coordinate the use of vehicles, machinery and equipment.

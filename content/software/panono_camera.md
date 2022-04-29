@@ -1,0 +1,10 @@
+---
+title: Panono Camera
+draft: false 
+website: https://shop.panono.com
+classification: ['']
+platform: ['Web']
+keywords: ['360fly', 'omni']
+image: logo.png
+---
+Highest resolution 360° photo camera on the market. 108MP still images. 16K x 8K output. HDR mode. Rated "Best for Photographers" by WSJ.

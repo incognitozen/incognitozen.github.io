@@ -2,34 +2,65 @@
 
 {{ $homepage := "Home" }}
 {{ with .Site.Menus.nav }}
-  {{ range first 1 . }}
-    {{ $homepage = .Name }}
-  {{ end }}
+{{ range first 1 . }}
+{{ $homepage = .Name }}
+{{ end }}
 {{ end }}
 <section class="text-center my-5">
-  <h1 class="jumbotron-heading">Discover softwares, their alternatives, reviews, news, questions and comparisons.</h1>
-  <p class="lead text-muted mx-auto w-50">Find handcurated and community moderated leading alternatives,reviews and comparisions for your favourite app or software on Hackerspad. Ask questions or simply browse news.</p>
-      <a id="soft-cta" href="https://hackerspad.net/submit-software/">Post a software for $49</a>
-      <p class="small">~ 150K Pageviews Per Month
-</p></section>
+  <h1 class="jumbotron-heading">Discover softwares & their alternatives.</h1>
+  <p class="lead text-muted mx-auto w-50">Find handcurated and community moderated leading alternatives,reviews and
+    comparisions for your favourite app or software on Hackerspad. Ask questions or simply browse news.</p>
+  <a id="soft-cta" href="https://hackerspad.net/submit-software/">Post a software for $49</a>
+  <p class="small">~ 150K Pageviews Per Month
+  </p>
+</section>
 
-{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ range first 20 $pages.ByPublishDate }}
 <div class="row">
-  <div class="col-sm-12">
-<div class="card mb-3">
-  <div class="card-body">
-    <div class="media">
-      <div class="media-body">
-        <h5 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h5>
-        {{ .Content }}
+  <div class="col-sm-9">
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ range first 10 $pages.ByPublishDate }}
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="media">
+          {{ $imagePath := printf "images/%s" .Params.image }}
+          {{- $image := resources.Get $imagePath -}}
+          {{ with $image }}
+          {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+          <img class="mr-3" src="{{ ($image.Fill " 64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+          {{ end }}
+          {{ end }}
+          <div class="media-body">
+            <h2 class="my-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            {{ partial "platform" . }}
+            <div class="mt-2">
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    {{ partial "tags" . }}
+    </div> {{ end }}
   </div>
-</div>
-</div>
-</div>
-{{ end }}
-
-{{- end -}}
+  <div class="col-sm-3">
+    <h5>Featured Softwares</h5>
+    {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "="
+    true) }}
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="media">
+          {{ $imagePath := printf "images/%s" .Params.image }}
+          {{- $image := resources.Get $imagePath -}}
+          {{ with $image }}
+          {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+          <img class="mr-3" src="{{ ($image.Fill " 32x32 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+          {{ end }}
+          {{ end }}
+          <div class="media-body">
+            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ partial "classification" . }}
+  </div>
+  {{- end -}}

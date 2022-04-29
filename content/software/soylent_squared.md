@@ -1,0 +1,10 @@
+---
+title: Soylent Squared
+draft: false 
+website: https://soylent.com
+classification: ['']
+platform: ['Web']
+keywords: ['ample', 'joylent']
+image: logo.png
+---
+A complete 100g mini-meal bar from Soylent

@@ -1,0 +1,10 @@
+---
+title: Lean essentials
+draft: false 
+website: https://raphaelqualitygoods.com
+classification: ['Design Softwares']
+platform: ['Web']
+keywords: ['wallet']
+image: logo.png
+---
+Original Design + Quality Craftsmanship - A minimal wallet made from a single piece of full grain leather, that wraps within and around itself to create the original and definitive LEAN™ wallet - Hand sewn, using the time-honoured 'Saddle Stitch' te…

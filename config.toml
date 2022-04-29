@@ -1,27 +1,16 @@
 baseURL = 'https://hackerspad.net'
 languageCode = 'en-us'
 title = 'Discover softwares, their alternatives, reviews, news, questions and comparisons.'
-enableGitInfo = true
-[related]
-  includeNewer = false
-  threshold = 80
-  toLower = false
-[[related.indices]]
-  name = 'keywords'
-  weight = 100
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
   platform = "platform"
   classification = "classification"
 
 [permalinks]
-  post = "/:title/"
-  software = "/software/:title/"
+  software = "/software/:filename/"
 
 [params]
-  description = "Some description"
+  description = "Software Alternatives,Reviews and Comparisions."
   contentBackgroundColor = "#f8f9fa"
   contentTextColor = "#212529"
   contentLinkColor = "#007bff"
@@ -43,13 +32,13 @@ enableGitInfo = true
 
 [menu]
   [[menu.nav]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
+  name = "Classification"
+  url = "/classification/"
+  weight = 1
   [[menu.nav]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 3
+  name = "Platforms"
+  url = "/platform/"
+  weight = 2
 
 [markup]
   defaultMarkdownHandler = "goldmark"

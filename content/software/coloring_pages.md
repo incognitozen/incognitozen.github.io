@@ -1,0 +1,10 @@
+---
+title: Coloring Pages
+draft: false 
+website: https://coloringpagesonly.com
+classification: ['']
+platform: ['Web']
+keywords: ['hexonomy']
+image: 2020/04/Coloring-Pages.png
+---
+Coloring pages for kids and adults, play free coloring pages for kids and adults. We provide coloring pages, coloring books, coloring games, paintings, coloring pages instructions at here. Have fun!

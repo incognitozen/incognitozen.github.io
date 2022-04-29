@@ -1,0 +1,10 @@
+---
+title: DaysPlan
+draft: false 
+website: https://daysplan.com
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: 2020/04/DaysPlan.png
+---
+DaysPlan is a cloud-based software that makes tracking and managing paid time off (PTO), leave, and vacation.

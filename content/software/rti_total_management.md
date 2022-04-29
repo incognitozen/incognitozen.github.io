@@ -1,0 +1,10 @@
+---
+title: RTI Total Management
+draft: false 
+website: https://rti-inc.com
+classification: ['']
+platform: ['Web']
+keywords: ['garden']
+image: 2020/04/RTI-Total-Management.png
+---
+At Restaurant Technologies (formerly known as RTI), we provide advanced kitchen automation services to top food service brands

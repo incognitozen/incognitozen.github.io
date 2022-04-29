@@ -1,0 +1,10 @@
+---
+title: GoEngineer
+draft: false 
+website: https://www.goengineer.com
+classification: ['']
+platform: ['Web']
+keywords: ['forefront', 'heller_consulting', 'sererra', 'uptima', 'astadia']
+image: 2020/04/GoEngineer.png
+---
+GoEngineer, provides you with premier resources such as SOLIDWORKS, 3D Printing, 3D Scanning, FEA, CFD, PLM, & CAM. We are a premier partner to Stratasys and SOLIDWORKS. We are located across Western and South Central United States.

@@ -1,0 +1,10 @@
+---
+title: Solitaire Deluxe
+draft: false 
+website: http://www.mobiledeluxe.com/games/solitaire-deluxe/
+classification: ['']
+platform: ['Web']
+keywords: ['']
+image: 2020/04/Solitaire-Deluxe.png
+---
+Premium solitaire card game experience with the 16 most popular solitaire games around.

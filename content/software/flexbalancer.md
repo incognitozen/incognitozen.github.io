@@ -1,0 +1,10 @@
+---
+title: FlexBalancer
+draft: false 
+website: https://perfops.net/flexbalancer
+classification: ['']
+platform: ['Web']
+keywords: ['envoy', 'glbc', 'github_load_balancer_director', 'traefik']
+image: logo.png
+---
+PerfOps FlexBalancer is a global server load balancing service that offers an easy way to control and route your traffic, do Multi-CDN and Multi-Cloud based on RUM data and write your own custom js logic for routing.

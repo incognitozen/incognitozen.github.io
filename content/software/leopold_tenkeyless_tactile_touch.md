@@ -1,0 +1,10 @@
+---
+title: Leopold Tenkeyless Tactile Touch
+draft: false 
+website: https://elitekeyboards.com
+classification: ['']
+platform: ['Web']
+keywords: ['planck', 'quiet', 'split', 'ultimate++', 'white']
+image: logo.png
+---
+This keyboard is priced to be affordable, while still offering a good typing experience even if it lacks some of the more premium features of more expensive boards.
