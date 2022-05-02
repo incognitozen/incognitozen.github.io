@@ -13,7 +13,7 @@
           {{ $imagePath := printf "images/%s" .Params.image }}
           {{- $image := resources.Get $imagePath -}}  
           {{ with $image }}
-          {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+          {{ if in (slice "jpeg" "png") .MediaType.SubType }}
           <img class="mr-3" src="{{ ($image.Fill "64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
           {{ end }}
           {{ end }}
@@ -42,7 +42,7 @@
             {{ $imagePath := printf "images/%s" .Params.image }}
             {{- $image := resources.Get $imagePath -}} 
             {{ with $image }} 
-            {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
+            {{ if in (slice "jpeg" "png") .MediaType.SubType }}
             <img class="mr-3 align-self-center" src="{{ ($image.Fill "64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
             {{ end }}
             {{ end }}
