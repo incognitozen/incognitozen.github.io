@@ -6,6 +6,7 @@ classification: ['Tools']
 platform: ['Web']
 keywords: ['agos_mapping', 'apple_maps', 'arcgis_earth', 'batchgeo', 'esri_arcgis', 'figma_map_maker', 'geopointe', 'google_earth_pro', 'maptitude', 'scribble_maps']
 image: 2021/02/logo-m-600x600-1.png
+verified: true
 ---
 Map Maker is a powerful but easy-to-use Web application for creating custom maps. You can upload your data, customize how the data is visualized, then export the map or share it with others for editing.
 

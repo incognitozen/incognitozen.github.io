@@ -17,23 +17,24 @@
 
 <div class="row">
   <div class="col-sm-9">
-    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ range first 10 $pages.ByPublishDate }}
+    {{ $pages := (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.verified" "=" true) }}
+    {{ range first 20 $pages.ByPublishDate }}
     <div class="card mb-3">
       <div class="card-body">
+        {{ partial "verified" . }}
         <div class="media">
           {{ $imagePath := printf "images/%s" .Params.image }}
           {{- $image := resources.Get $imagePath -}}
           {{ with $image }}
           {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
-          <img class="mr-3" src="{{ ($image.Fill " 64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+          <img class="mr-3 align-self-center" src="{{ ($image.Fill " 64x64 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
           {{ end }}
           {{ end }}
           <div class="media-body">
-            <h2 class="my-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            <h2 class="my-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h2>
             {{ partial "platform" . }}
             <div class="mt-2">
-              {{ .Content }}
+              {{ .Summary }}
             </div>
           </div>
         </div>
@@ -42,7 +43,7 @@
   </div>
   <div class="col-sm-3">
     <h5>Featured Softwares</h5>
-    {{ range first 3 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "="
+    {{ range first 6 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "="
     true) }}
     <div class="card mb-3">
       <div class="card-body">
@@ -51,16 +52,16 @@
           {{- $image := resources.Get $imagePath -}}
           {{ with $image }}
           {{ if in (slice "jpeg" "png" "webp") .MediaType.SubType }}
-          <img class="mr-3" src="{{ ($image.Fill " 32x32 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
+          <img class="mr-3 align-self-center" src="{{ ($image.Fill " 32x32 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
           {{ end }}
           {{ end }}
           <div class="media-body">
-            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull>
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
+    {{ end }}
     {{ partial "classification" . }}
   </div>
   {{- end -}}

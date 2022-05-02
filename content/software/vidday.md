@@ -6,6 +6,7 @@ classification: ['Photo &amp; Video Softwares']
 platform: ['Web']
 keywords: ['animaker', 'biteable', 'photostory', 'vidhug', 'video_montage_maker']
 image: 2020/11/Vidday-Logo-Colour-square-scaled.jpg
+verified: true
 ---
 The <b>Surprise</b>&nbsp;Video Gift Maker
 

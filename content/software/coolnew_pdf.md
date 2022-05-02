@@ -6,6 +6,7 @@ classification: ['Editing Softwares']
 platform: ['Windows']
 keywords: ['2epub', '4dots_free_pdf_compress', '5dfly_images_to_pdf_converter', 'a.nnotate', 'abbyy', 'abbyy_finereader_14', 'axpdf_pdf_to_word_converter', 'able2extract', 'able2extract_professional', 'acethinker_pdf_writer', 'acethinker_pdf_converter_pro', 'acrotex_pdf_print_monitor', 'activepdf', 'adobe_document_cloud', 'adobe_pdf_editor', 'adobe_reader', 'adobe_scan', 'advanced_pdf_utilities_free', 'advanced_pdf_to_word_converter', 'altarsoft_pdf_converter', 'altarsoft_pdf_reader', 'any_ebook_converter', 'anyflip', 'anypic_jpg_to_pdf_converter', 'apache_pdfbox', 'api2pdf', 'apowerpdf', 'apowersoft_pdf_converter', 'aspose.pdf_for_cloud', 'aspose.slides_for_cloud', 'awesomepdf', 'bfo_java_pdf_library', 'bepdf', 'benubird_pdf', 'best_pdf_converter', 'best_pdf_tools', 'birdie_doc_to_pdf_converter', 'birdie_pdf_security_remover', 'breezypdf', 'html2pdf_rocket', 'pdf_merge_split_free', 'pdf_panda', 'pdf_separator', 'pdf-shuffler', 'pdfgarage', 'pdfmerge', 'pdfzero', 'pdfsam', 'sysinfo_pdf_splitter', 'systools_pdf_split_&_merge', 'unitypdf', 'aktomat', 'jpdf_tweak', 'qvpdf', 'splitpdf.net']
 image: 2022/01/coolnew-512.png
+verified: true
 ---
 CoolNew PDF offers all-in-one experience to awesomize your PDF experience. An affordable Solution to all your PDF Problems
 <ul>

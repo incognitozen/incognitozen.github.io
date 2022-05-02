@@ -6,6 +6,7 @@ classification: ['Live Chat Softwares']
 platform: ['Browser', 'Web']
 keywords: ['linkedchat', 'signalzen', 'social_intents']
 image: 2021/11/Screenshot-from-2021-11-24-08-38-34.png
+verified: true
 ---
 Convert website visits to sales - We are your Slack gateway for Live Chat.
 

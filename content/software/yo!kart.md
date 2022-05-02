@@ -6,6 +6,7 @@ classification: ['Tools']
 platform: ['Web']
 keywords: ['cs-cart_community', 'cs-cart_multi-vendor', 'dokan_multivendor_marketplace', 'multimerch', 'sharetribe']
 image: 2021/02/YoKart.jpg
+verified: true
 ---
 Yo!Kart is a self-hosted, fully customizable, and scalable multi-vendor eCommerce platform developed by FATbit Technologies. It is a standalone multi-vendor software that has been used by 1000+ businesses including few billion-dollar businesses from various industries including precious metals, FMCG, etc.
 

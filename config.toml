@@ -1,7 +1,7 @@
 baseURL = 'https://hackerspad.net'
 languageCode = 'en-us'
 title = 'Discover softwares, their alternatives, reviews, news, questions and comparisons.'
-
+summarylength = 30
 [taxonomies]
   platform = "platform"
   classification = "classification"

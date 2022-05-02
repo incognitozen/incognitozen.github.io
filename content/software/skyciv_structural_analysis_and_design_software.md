@@ -6,6 +6,7 @@ classification: ['Design Softwares']
 platform: ['Web']
 keywords: ['cloudcalc', 'diamonds', 'tekla']
 image: 2022/03/Untitled-design.png
+verified: true
 ---
 SkyCiv Structural 3D is a cloud-based structural analysis software and design software that allows users to model and solve complex 3D structures. It is completely online; requiring no installation or updating. SkyCiv Structural 3D offers the very best in online structural engineering software and integrated design checks.
 

@@ -6,6 +6,7 @@ classification: ['Tools']
 platform: ['Web']
 keywords: ['cs-cart_community', 'cs-cart_multi-vendor', 'dokan_multivendor_marketplace', 'multimerch']
 image: 2021/02/YoRent.png
+verified: true
 ---
 <!-- wp:paragraph -->
 <p>Yo!Rent is a leading eCommerce marketplace software by FATbit Technologies that helps entrepreneurs to launch an advanced &amp; feature-rich rental website. It is a highly scalable solution for building a custom eCommerce website to rent &amp; sell products online.</p>

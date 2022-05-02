@@ -2,8 +2,8 @@
 title: UserSearch
 draft: false 
 website: https://usersearch.org
-classification: ['2481']
-platform: ['161']
+classification: ['Search']
+platform: ['web']
 keywords: ['number_guru', 'reverse.photos', 'wingate', 'zabasearch']
 image: 2021/11/index.png
 ---
