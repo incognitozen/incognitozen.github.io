@@ -20,7 +20,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: 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
           external_repository: incognitozen/incognitozen.github.io
           publish_dir: ./public
           publish_branch: master
