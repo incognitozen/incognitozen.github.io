@@ -2,6 +2,8 @@ baseURL = 'https://incognitozen.github.io'
 languageCode = 'en-us'
 title = 'Discover softwares, their alternatives, reviews, news, questions and comparisons.'
 summarylength = 30
+disableKinds = ["RSS"]
+
 [taxonomies]
   platform = "platform"
   classification = "classification"
