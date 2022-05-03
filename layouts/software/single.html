@@ -20,7 +20,6 @@
           <div class="my-12">
           <div class="media-body">
             <h1 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h1>
-            {{ partial "platform" . }}
             <div class="mt-2">{{ .Content }}</div>
           </div>
         </div>
@@ -48,7 +47,6 @@
             {{ end }}
             <div class="media-body"> 
               <h1 class="mt-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h1>
-              {{ partial "platform" . }}
               <div class="mt-2">{{ .Summary }}</div>
             </div>
           </div>
@@ -58,4 +56,5 @@
     {{ end }}
   {{ end }}
  </div>
-</div>{{ end }}
+</div>
+{{ end }}

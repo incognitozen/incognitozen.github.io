@@ -1,4 +1,0 @@
-{{ range .Params.platform }}
-{{ $href := print (absURL "platform/") (urlize .) }}
-<small><code><a href="{{ $href }}">{{ . }}</a></code></small>
-{{ end }}

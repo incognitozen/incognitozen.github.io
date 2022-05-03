@@ -1,4 +1,0 @@
-{{ range .Params.classification }}
-{{ $href := print (absURL "classification/") (urlize .) }}
-<small><code><a href="{{ $href }}">{{ . }}</a></code></small>
-{{ end }}

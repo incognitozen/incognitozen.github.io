@@ -32,7 +32,6 @@
           {{ end }}
           <div class="media-body">
             <h2 class="my-0"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull></h2>
-            {{ partial "platform" . }}
             <div class="mt-2">
               {{ .Summary }}
             </div>
@@ -61,6 +60,5 @@
       </div>
     </div>
     {{ end }}
-    {{ partial "classification" . }}
   </div>
   {{- end -}}
