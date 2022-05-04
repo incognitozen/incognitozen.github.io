@@ -110,7 +110,15 @@ a:focus {
 }
 {{ end }}
 
-
+{{ with .Site.Params.wrapperMaxWidth }}
+.container {
+  max-width: {{ . | safeCSS }};
+}
+{{ else }}
+.container {
+  max-width: 800px;
+}
+{{ end }}
 
 {{ if eq .Site.Params.customCodeStyle true }}
 pre {

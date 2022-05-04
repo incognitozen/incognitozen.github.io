@@ -10,13 +10,13 @@
   <h1 class="jumbotron-heading">Discover softwares & their alternatives.</h1>
   <p class="lead text-muted mx-auto w-50">Find handcurated and community moderated leading alternatives,reviews and
     comparisions for your favourite app or software on Hackerspad. Ask questions or simply browse news.</p>
-  <a id="soft-cta" href="https://hackerspad.net/submit-software/">Post a software for $69</a>  {{- partials "checkout.html" . -}}
+  <a id="soft-cta" href="https://buy.stripe.com/eVag034iyfT00XS001" target="_blank">Post/verify a software for $69</a> 
   <p class="small">~ 150K Pageviews Per Month
   </p>
 </section>
 
 <div class="row">
-  <div class="col-sm-9">
+  <div class="col-sm-12">
     {{ $pages := (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.verified" "=" true) }}
     {{ range first 20 $pages.ByPublishDate }}
     <div class="card mb-3">
@@ -39,26 +39,5 @@
         </div>
       </div>
     </div> {{ end }}
-  </div>
-  <div class="col-sm-3">
-    <h5>Featured Softwares</h5>
-    {{ range first 6 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
-    <div class="card mb-3">
-      <div class="card-body">
-        <div class="media">
-          {{ $imagePath := printf "images/%s" .Params.image }}
-          {{- $image := resources.Get $imagePath -}}
-          {{ with $image }}
-          {{ if in (slice "jpeg" "png") .MediaType.SubType }}
-          <img class="mr-3 align-self-center" src="{{ ($image.Fill " 32x32 q75 Center").RelPermalink }}" alt="{{ .Title }}}}">
-          {{ end }}
-          {{ end }}
-          <div class="media-body">
-            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a><dull><a href="{{ .Params.website }}" target="_blank"><i class="pl-2 bi bi-box-arrow-in-up-right"></i></a></i></dull>
-          </div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
   </div>
   {{- end -}}

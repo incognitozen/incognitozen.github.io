@@ -3,16 +3,4 @@
 <h1>{{ .Title | markdownify }}</h1>
 {{ .Content }}
 
-<h3>{{ len .Params.keywords}} Alternatives To {{ .Title }}</h3>
-{{ range .Params.keywords }}
-{{ $href := print (absURL "software/") (urlize .) }}
-<div class="card mb-3">
-  <div class="card-body">
-    <div class="media">
-    <div class="media-body"> <h2><a href="{{ $href }}">{{ . }}</a></h2>
-    </div>
-  </div>
-</div>
-</div>
-{{- end -}}
 {{- end -}}

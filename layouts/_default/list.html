@@ -10,7 +10,6 @@
     {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
     <br>
     <small class="text-secondary">{{ .PublishDate.Format $customDateFormat }}</small>
-    {{ partial "tags" . }}
     {{ if eq .Site.Params.showPostSummary true }}
     <br>
     {{ .Summary }}

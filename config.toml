@@ -4,6 +4,12 @@ title = 'Discover softwares, their alternatives, reviews, news, questions and co
 summarylength = 30
 disableKinds = ["RSS"]
 
+[menu]
+  [[menu.nav]]
+  name = "Verified"
+  url = "/verified/"
+  weight = 1
+
 [permalinks]
   software = "/software/:filename/"
 
