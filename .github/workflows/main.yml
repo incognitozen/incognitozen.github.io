@@ -23,4 +23,4 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: incognitozen/incognitozen.github.io
           publish_dir: ./public
-          publish_branch: master
+          publish_branch: main
