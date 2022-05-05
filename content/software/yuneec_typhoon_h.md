@@ -1,0 +1,10 @@
+---
+title: Yuneec Typhoon H
+draft: false 
+website: https://us.yuneec.com
+classification: ['Photo &amp; Video Softwares']
+platform: ['Web']
+keywords: ['hexo+']
+image: logo.png
+---
+Featuring a high quality 360-degree camera and a remote with a big HD screen, this is a very stable platform for aerial filming and photography. It also does not require a separate mobile device to view the drone’s live feed.

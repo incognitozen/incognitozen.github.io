@@ -1,0 +1,10 @@
+---
+title: Buddy Platform
+draft: false 
+website: https://buddy.com
+classification: ['']
+platform: ['Web']
+keywords: ['arrayent', 'blackberry_iot_platform', 'c3_iot', 'carriots', 'covisint', 'cumulocity', 'evrythng', 'gaonic', 'google_cloud_iot', 'grovestreams', 'hologram_iot', 'losant', 'sensorberg', 'status_device_cloud', 'thingworx', 'xively', 'mnubo', 'thethings.io']
+image: 2020/04/Buddy-Platform.png
+---
+Buddy enables developers to build apps for connected devices without having to write, manage or scale server-side code or infrastructure.

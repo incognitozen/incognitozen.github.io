@@ -17,8 +17,6 @@
   {{ $favicon16x16 := "favicon-16x16.png" }}
   <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16x16 | absURL }}">
 
-  {{ $siteWebmanifest := "site.webmanifest" }}
-  <link rel="manifest" href="{{ $siteWebmanifest | absURL }}">
 
   {{ $safariPinnedTab := "safari-pinned-tab.svg" }}
   <link rel="mask-icon" href="{{ $safariPinnedTab | absURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">

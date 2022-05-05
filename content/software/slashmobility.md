@@ -1,0 +1,10 @@
+---
+title: SlashMobility
+draft: false 
+website: https://slashmobility.com
+classification: ['Design Softwares']
+platform: ['Web']
+keywords: ['textbychoice', 'yodel_mobile']
+image: 2020/04/SlashMobility.png
+---
+Servicios Mobile 360º para Transformación Digital: Design Thinking, Concept Lab, Diseño y Desarrollo, Open Innovation, AppMarketing, IA, IoT.

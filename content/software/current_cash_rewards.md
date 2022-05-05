@@ -1,0 +1,10 @@
+---
+title: Current Cash Rewards
+draft: false 
+website: https://current.us
+classification: ['Music Softwares']
+platform: ['Web']
+keywords: ['cards', 'dosh', 'fly', 'nifflr']
+image: 2020/04/Current-Cash-Rewards.png
+---
+The Current Cash Rewards is one of the best media platforms that provide smooth music streaming experience and rewards opportunities to its users.

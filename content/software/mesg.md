@@ -1,0 +1,10 @@
+---
+title: MESG
+draft: false 
+website: https://mesg.com
+classification: ['']
+platform: ['Web']
+keywords: ['imixs-workflow', 'signavio']
+image: 2020/04/MESG.png
+---
+A decentralized event-driven task-orchestration system based on an open market of pay-per-use services.
