@@ -1,44 +1,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  {{ hugo.Generator }}
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  {{- $bootstrapCss := "css/style.css" -}}
+  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+  {{- if .IsHome -}}
+  {{ $homepage := "Hackers Pad" }}
+  <title>{{ $homepage }} | {{ .Site.Params.description }}</title>
   {{ with .Site.Params.description }}
   <meta name="description" content="{{ . }}">
   {{ end }}
-
-  {{ $appleTouchIcon := "apple-touch-icon.png" }}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon | absURL }}">
-
-  {{ $favicon32x32 := "favicon-32x32.png" }}
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32x32 | absURL }}">
-
-  {{ $favicon16x16 := "favicon-16x16.png" }}
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16x16 | absURL }}">
-
-
-  {{ $safariPinnedTab := "safari-pinned-tab.svg" }}
-  <link rel="mask-icon" href="{{ $safariPinnedTab | absURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <meta name="msapplication-TileColor" content="{{ .Site.Params.faviconMsApplicationTileColor }}">
-  <meta name="theme-color" content="{{ .Site.Params.faviconThemeColor }}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  {{ $bootstrapCss := "css/style.css"}}
-  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
-  {{ partial "bootstrap-js.html" . }}
-  {{ partial "google-analytics.html" . }}
-  {{ partial "adsense.html" . }}
-  {{ if .IsHome }}
-  {{ $homepage := "Home" }}
-  {{ with .Site.Menus.nav }}
-    {{ range first 1 . }}
-      {{ $homepage = .Name }}
-    {{ end }}
-  {{ end }}
-  <title>{{ $homepage }} | {{ .Site.Title }}</title>
   {{ else }}
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <title>{{ .Title }} | {{ .Site.Params.brand }}</title>
+  <meta name="description" content="{{ if .Summary }}{{ .Summary | truncate 165 }}{{ end }}"/>
   {{ end }}
 
   {{ partial "style.html" . }}

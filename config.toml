@@ -15,6 +15,7 @@ disableKinds = ["RSS"]
 
 [params]
   description = "Software Alternatives,Reviews and Comparisions."
+  brand = "Hackers Pad"
   contentBackgroundColor = "#f8f9fa"
   contentTextColor = "#212529"
   contentLinkColor = "#007bff"
