@@ -12,7 +12,7 @@
   <meta name="description" content="{{ . }}">
   {{ end }}
   {{ else }}
-  <title>{{ .Title }} | {{ .Site.Params.brand }}</title>
+  <title>{{ .Params.keywords}} Alternatives To {{ .Title }} | {{ .Site.Params.brand }}</title>
   <meta name="description" content="{{ if .Summary }}{{ .Summary | truncate 165 }}{{ end }}"/>
   {{ end }}
 

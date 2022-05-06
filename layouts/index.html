@@ -5,7 +5,7 @@
   <h1 class="jumbotron-heading">Discover softwares & their alternatives.</h1>
   <p class="lead text-muted mx-auto w-50">Find handcurated and community moderated leading alternatives,reviews and
     comparisions for your favourite app or software on Hackerspad. Ask questions or simply browse news.</p>
-  <a id="soft-cta" href="https://buy.stripe.com/eVag034iyfT00XS001" target="_blank">Post/ Verify a software for $69</a> 
+  <a id="soft-cta" href="https://buy.stripe.com/eVag034iyfT00XS001" target="_blank">Post / Verify a software for $69</a> 
   <p class="small">~ 150K Pageviews Per Month
   </p>
 </section>
@@ -14,7 +14,7 @@
   <div class="col-sm-12">
     {{ $pages := (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.verified" "=" true) }}
     {{ range first 20 $pages.ByPublishDate }}
-    <div class="card mb-3">
+    <div class="card mb-3 feature">
       <div class="card-body">
         {{ partial "verified" . }}
         <div class="media">
