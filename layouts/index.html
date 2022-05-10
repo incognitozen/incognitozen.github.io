@@ -13,7 +13,7 @@
 <div class="row">
   <div class="col-sm-12">
     {{ $pages := (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.verified" "=" true) }}
-    {{ range first 20 $pages.ByPublishDate }}
+    {{ range first 20 $pages.ByWeight }}
     <div class="card mb-3 feature">
       <div class="card-body">
         {{ partial "verified" . }}
