@@ -23,3 +23,6 @@ Verified softwares receive
  - 150% boost for clicks from competitors pages
  - homepage feature
  - massive SEO boost due to popularity of the hackerspad pages.
+
+
+ Email a at thiswebsitedomain for queries.
