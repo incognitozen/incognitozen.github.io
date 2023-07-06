@@ -1,6 +1,9 @@
 ---
 title: Captive WiFi
 draft: false 
+verified: true
+featured: true
+weight: 1
 website: https://www.captivewifi.io
 classification: ['']
 platform: ['Web']
