@@ -1,7 +1,10 @@
 ---
 title: Adserver.Online
 draft: false 
-website: [http://1writerapp.com](https://adserver.online)
+verified: true
+featured: true
+weight: 1
+website: https://adserver.online
 classification: ['']
 platform: ['Web']
 keywords: ['AdGlare', 'Epom', 'AdKernel', 'AdSpeed']
