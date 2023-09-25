@@ -4,7 +4,7 @@ draft: false
 verified: true
 featured: true
 weight: 1
-website: [https://www.captivewifi.io](https://www.chromeanalyzer.com)
+website: https://www.chromeanalyzer.com
 classification: ['']
 platform: ['Web']
 keywords: ['']
