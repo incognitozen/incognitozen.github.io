@@ -1,4 +1,32 @@
-{{- define "main" -}}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  {{- $bootstrapCss := "css/style.css" -}}
+  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+  {{- if .IsHome -}}
+  {{ $homepage := "Hackers Pad" }}
+  <title>{{ $homepage }} | {{ .Site.Params.description }}</title>
+  {{ with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  {{ end }}
+  {{ else }}
+  <title>{{ len .Params.keywords}} Alternatives To {{ .Title }}-{{ .Site.Params.brand }}</title>
+  <meta name="description" content="{{ if .Summary }}{{ .Summary | truncate 165 }}{{ end }}"/>
+  {{ end }}
+
+  {{ partial "style.html" . }}
+</head>
+
+<body>
+  {{ partial "nav.html" . }}
+  
+  <div class="container">
+    <article>
 <div class="row">
   <div class="col-sm-12">
     {{ if .Params.verified }}
@@ -65,4 +93,10 @@
       {{ end }}
     </div>
   </div>
-  {{ end }}
+</article>
+{{ partial "footer.html" . }}
+</div>
+</body>
+
+
+</html>
