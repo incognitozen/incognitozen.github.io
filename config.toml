@@ -9,6 +9,11 @@ disableKinds = ["RSS"]
   name = "Verified"
   url = "/verified/"
   weight = 1
+  [[menu.nav]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+
 
 [permalinks]
   software = "/software/:filename/"
